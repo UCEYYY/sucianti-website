@@ -1,0 +1,131 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #329ae4;
+	padding: 20px;
+	text-align: center;
+}
+header {
+    background-color: #f2f2f2; /* replace with your desired background color */
+    background-image: url('img/backround.jpg'); /* replace with your background image file */
+    background-size: cover; /* scale the image to cover the entire background */
+    background-position: center; /* center the image horizontally and vertically */
+  }
+
+.profile {
+	margin: 20px auto;
+}
+
+.profile img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.social-links {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.social-links li {
+    display: inline;
+	margin: 10px;
+}
+
+.social-links a {
+	color: #daeeff;
+	text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+	color: #000000;
+}
+.logig {
+    width: 20px; /* adjust the width and height to your liking */
+    height: 20px;
+    margin: 5px; /* add some margin to separate the images */
+  }
+  /* ... (other styles remain the same) */
+
+/* Hide all content by default */
+ #section-content #section1-content, #section2-content, #section3-content {
+    display: none;
+  }
+  
+  /* Show content when targeted by URL fragment */
+  #beranda:target { 
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  nav ul li a:hover {
+    color: #23527c;
+  }
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 10px;
+}
+
+nav a {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #23527c;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+section {
+	background-color: #ecedee;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ddd;
+}
+
+h1, h2 {
+	color: #337ab7;
+}
+
+p {
+	color: #00040a;
+}
